@@ -13,7 +13,7 @@ function WelcomeScreen({ navigation }) {
         </SafeAreaView>
         <View style={styles.ButtonContainer}>
         <AppButton title='Login' onPress={() => navigation.navigate('Login')} />
-        <AppButton title='Rigister'  color='secondary' onPress={()=>navigation.navigate('Register')}/>
+        <AppButton title='Register'  color='secondary' onPress={()=>navigation.navigate('Register')}/>
         </View>
             
      </ImageBackground>
